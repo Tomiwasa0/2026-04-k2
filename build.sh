@@ -3,7 +3,7 @@ set -e
 
 # Get the directory where this script is located
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-PROJECT_ROOT="$( cd "$SCRIPT_DIR/.." && pwd )"
+PROJECT_ROOT="$SCRIPT_DIR"
 cd "$PROJECT_ROOT"
 
 echo "Building Soroban contracts..."
