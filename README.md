@@ -29,6 +29,15 @@
    - Upgrading a Low-risk finding from a QA report to a Medium- or High-risk finding is not supported.
    - As such, wardens are encouraged to select the appropriate risk level carefully during the submission phase.
 
+## V12 findings
+
+[V12](https://v12.zellic.io/) is [Zellic](https://zellic.io)'s in-house AI auditing tool. It is the only autonomous auditor that [reliably finds Highs and Criticals](https://www.zellic.io/blog/introducing-v12/). All issues found by V12 will be judged as out of scope and ineligible for awards.
+
+V12 findings can be viewed below:
+- [Critical severity output](https://github.com/code-423n4/2026-04-k2/blob/main/K2-V12-Critical-output.md)
+- [High severity output](https://github.com/code-423n4/2026-04-k2/blob/main/K2-V12-High-output.md)
+- [Medium and Low severity output](https://github.com/code-423n4/2026-04-k2/blob/main/K2-V12-Med-Low-output.md)
+
 ## Publicly known issues
 
 _Anything included in this section is considered a publicly known issue and is therefore ineligible for awards._
